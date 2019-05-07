@@ -1,0 +1,10 @@
+<templateSet group="user">
+  <template name="tag" value="private static final String TAG = $class_name$.class.getSimpleName();" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="class_name" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

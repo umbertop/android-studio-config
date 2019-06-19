@@ -1,6 +1,14 @@
 <application>
   <component name="KeyPromoterXStatistic">
     <option name="statistics">
+      <Statistic Action="Convert Java File to Kotlin File">
+        <Item>
+          <IdeaActionID>ConvertJavaToKotlin</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Maiusc+K'</ShortCut>
+          <Description>Convert Java File to Kotlin File</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Copy Value">
         <Item>
           <IdeaActionID>XDebugger.CopyValue</IdeaActionID>
@@ -22,7 +30,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>28</Count>
+          <Count>29</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find Usages">
@@ -33,12 +41,28 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Implementation(s)">
+        <Item>
+          <IdeaActionID>GotoImplementation</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+B'</ShortCut>
+          <Description>Implementation(s)</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Logcat">
         <Item>
           <IdeaActionID>ActivateLogcatToolWindow</IdeaActionID>
           <ShortCut>'Alt+6'</ShortCut>
           <Description>Logcat</Description>
           <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Navigation Bar">
+        <Item>
+          <IdeaActionID>ShowNavBar</IdeaActionID>
+          <ShortCut>'Alt+Home'</ShortCut>
+          <Description>Navigation Bar</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project">

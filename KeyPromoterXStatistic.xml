@@ -1,12 +1,12 @@
 <application>
   <component name="KeyPromoterXStatistic">
-    <option name="statistics">
+    <option name="suppressed">
       <Statistic Action="Logcat">
         <Item>
           <IdeaActionID>ActivateLogcatToolWindow</IdeaActionID>
           <ShortCut>'Alt+6'</ShortCut>
           <Description>Logcat</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
     </option>

@@ -9,6 +9,22 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Parameter Info">
+        <Item>
+          <IdeaActionID>ParameterInfo</IdeaActionID>
+          <ShortCut>'Ctrl+P'</ShortCut>
+          <Description>Parameter Info</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Quick Definition">
+        <Item>
+          <IdeaActionID>QuickImplementations</IdeaActionID>
+          <ShortCut>'Ctrl+Maiusc+I'</ShortCut>
+          <Description>Quick Definition</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
     </option>
     <option name="suppressed">
       <Statistic Action="Logcat">

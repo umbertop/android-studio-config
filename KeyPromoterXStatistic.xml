@@ -65,6 +65,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Settings...">
+        <Item>
+          <IdeaActionID>ShowSettings</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+S'</ShortCut>
+          <Description>Settings...</Description>
+          <Count>15</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'app'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>

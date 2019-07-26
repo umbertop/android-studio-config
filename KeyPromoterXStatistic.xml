@@ -14,7 +14,7 @@
           <IdeaActionID>ActivateDebugToolWindow</IdeaActionID>
           <ShortCut>'Alt+5'</ShortCut>
           <Description>Debug</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Declaration">
@@ -31,6 +31,14 @@
           <ShortCut>'Alt+F7'</ShortCut>
           <Description>Find Usages</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Make Project">
+        <Item>
+          <IdeaActionID>MakeGradleProject</IdeaActionID>
+          <ShortCut>'Ctrl+F9'</ShortCut>
+          <Description>Make Project</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Parameter Info">
@@ -62,7 +70,7 @@
           <IdeaActionID>ActivateRunToolWindow</IdeaActionID>
           <ShortCut>'Alt+4'</ShortCut>
           <Description>Run</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Settings...">
@@ -78,7 +86,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'app'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">

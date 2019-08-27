@@ -1,6 +1,6 @@
 <code_scheme name="Default" version="173">
   <codeStyleSettings language="Dart">
-    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+    <option name="WRAP_ON_TYPING" value="0" />
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />

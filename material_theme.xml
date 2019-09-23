@@ -2,9 +2,10 @@
   <component name="MaterialThemeConfig">
     <option name="isContrastMode" value="true" />
     <option name="isWizardShown" value="true" />
+    <option name="overrideAccentColor" value="true" />
     <option name="pristineConfig" value="false" />
     <option name="settingsSelectedTab" value="6" />
-    <option name="accentColor" value="1ed760" />
+    <option name="accentColor" value="ff9800" />
     <option name="selectedTheme" value="DARKER" />
     <option name="userId" value="-4f5c9b0a:16cdc42a191:-8000" />
     <option name="version" value="3.10.0" />

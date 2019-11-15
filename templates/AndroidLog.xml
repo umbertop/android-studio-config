@@ -1,6 +1,0 @@
-<templateSet group="AndroidLog">
-  <template name="logt" value="private static final String TAG = $class_name$.class.getSimpleName();" description="Create class log tag" toReformat="false" toShortenFQNames="true">
-    <variable name="class_name" expression="className()" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-</templateSet>

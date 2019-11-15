@@ -1,8 +1,0 @@
-<templateSet group="Kotlin">
-  <template name="logt" value="private val TAG = $class_name$::class.qualifiedName" description="Create class log tag" toReformat="false" toShortenFQNames="true">
-    <variable name="class_name" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="KOTLIN_CLASS" value="true" />
-    </context>
-  </template>
-</templateSet>

@@ -77,12 +77,12 @@
     </filter>
     <filter>
       <option name="PATTERN" value="android.*" />
-      <option name="ENABLED" value="false" />
+      <option name="ENABLED" value="true" />
       <option name="INCLUDE" value="true" />
     </filter>
     <filter>
       <option name="PATTERN" value="com.android.*" />
-      <option name="ENABLED" value="false" />
+      <option name="ENABLED" value="true" />
       <option name="INCLUDE" value="true" />
     </filter>
   </component>

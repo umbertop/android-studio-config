@@ -234,7 +234,11 @@
         <section>
           <rule>
             <match>
-              <OVERRIDDEN />
+              <AND>
+                <METHOD>true</METHOD>
+                <OVERRIDDEN />
+                <visibility />
+              </AND>
             </match>
             <order>BY_NAME</order>
           </rule>

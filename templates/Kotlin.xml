@@ -1,5 +1,5 @@
 <templateSet group="Kotlin">
-  <template name="region" value="// region $NAME$&#10;    $END$&#10;// endregion" description="Creates a region with a given name" toReformat="false" toShortenFQNames="true">
+  <template name="region" value="// region $NAME$&#10;$END$&#10;// endregion" description="Creates a region with a given name" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />

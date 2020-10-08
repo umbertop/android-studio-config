@@ -1,29 +1,19 @@
 <templateSet group="KotlinTimber">
-  <template name="td" value="timber.log.Timber.d(&quot;$METHOD_NAME$: $content$&quot;)" description="Timber.d(String)" toReformat="true" toShortenFQNames="true">
+  <template name="td" value="timber.log.Timber.d(&quot;$METHOD_NAME$()&quot;)" description="Timber.d(String)" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="kotlinClassName()" alwaysStopAt="false" />
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="te" value="timber.log.Timber.e($exception$, &quot;$METHOD_NAME$: $content$&quot;)" description="Timber.e(Exception, String)" toReformat="true" toShortenFQNames="true">
+  <template name="te" value="timber.log.Timber.e($exception$, &quot;$METHOD_NAME$()&quot;)" description="Timber.e(Exception, String)" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ti" value="timber.log.Timber.i(&quot;$METHOD_NAME$: $content$&quot;)" description="Timber.i(String)" toReformat="true" toShortenFQNames="true">
+  <template name="ti" value="timber.log.Timber.i(&quot;$METHOD_NAME$()&quot;)" description="Timber.i(String)" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="KOTLIN_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="tm" value="timber.log.Timber.d(&quot;$METHOD_NAME$() called $content$&quot;)" description="Log method name and its arguments" toReformat="true" toShortenFQNames="true">
-    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="kotlinClassName()" alwaysStopAt="false" />
-    <variable name="content" expression="groovyScript(&quot;def params = _1.collect {it + ' = [$'+it+']'}.join(', '); return (params.empty  ? '' : ' with: ' + params)&quot;, functionParameters())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
@@ -35,18 +25,16 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="tw" value="timber.log.Timber.w($exception$, &quot;$METHOD_NAME$: $content$&quot;)" description="Timber.w(Exception, String)" toReformat="true" toShortenFQNames="true">
+  <template name="tw" value="timber.log.Timber.w($exception$, &quot;$METHOD_NAME$()&quot;)" description="Timber.w(Exception, String)" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="twtf" value="timber.log.Timber.wtf($exception$, &quot;$METHOD_NAME$: $content$&quot;)" description="Timber.wtf(Exception, String)" toReformat="true" toShortenFQNames="true">
+  <template name="twtf" value="timber.log.Timber.wtf($exception$, &quot;$METHOD_NAME$()&quot;)" description="Timber.wtf(Exception, String)" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>

@@ -1,0 +1,42 @@
+<templateSet group="KotlinTimber">
+  <template name="td" value="timber.log.Timber.d(&quot;$METHOD_NAME$()&quot;)" description="Timber.d(String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="kotlinClassName()" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="te" value="timber.log.Timber.e($exception$, &quot;$METHOD_NAME$()&quot;)" description="Timber.e(Exception, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ti" value="timber.log.Timber.i(&quot;$METHOD_NAME$()&quot;)" description="Timber.i(String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tr" value="timber.log.Timber.d(&quot;$METHOD_NAME$() returned: $result$&quot;)" description="Log result of this method" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="result" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tw" value="timber.log.Timber.w($exception$, &quot;$METHOD_NAME$()&quot;)" description="Timber.w(Exception, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="twtf" value="timber.log.Timber.wtf($exception$, &quot;$METHOD_NAME$()&quot;)" description="Timber.wtf(Exception, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

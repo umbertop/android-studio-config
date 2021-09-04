@@ -6,7 +6,7 @@
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="vmldata" value="private val _$NAME$ = androidx.lifecycle.MutableLiveData&lt;$TYPE$&gt;($INITIAL_VALUE$)&#10;val $NAME$: androidx.lifecycle.LiveData&lt;$TYPE$&gt; = _x" description="Creates a LiveData with private MutableLiveData" toReformat="false" toShortenFQNames="true">
+  <template name="vmldata" value="private val _$NAME$ = androidx.lifecycle.MutableLiveData&lt;$TYPE$&gt;($INITIAL_VALUE$)&#10;val $NAME$: androidx.lifecycle.LiveData&lt;$TYPE$&gt; = _$NAME$" description="Creates a LiveData with private MutableLiveData" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="INITIAL_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
@@ -14,7 +14,7 @@
       <option name="KOTLIN_CLASS" value="true" />
     </context>
   </template>
-  <template name="vmsflow" value="private val _$NAME$ = kotlinx.coroutines.flow.MutableStateFlow&lt;$TYPE$&gt;($INITIAL_VALUE$)&#10;val $NAME$: kotlinx.coroutines.flow.StateFlow&lt;$TYPE$&gt; = _x" description="Creates a StateFlow with private MutableStateFlow" toReformat="false" toShortenFQNames="true">
+  <template name="vmsflow" value="private val _$NAME$ = kotlinx.coroutines.flow.MutableStateFlow&lt;$TYPE$&gt;($INITIAL_VALUE$)&#10;val $NAME$: kotlinx.coroutines.flow.StateFlow&lt;$TYPE$&gt; = _$NAME$" description="Creates a StateFlow with private MutableStateFlow" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="INITIAL_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
